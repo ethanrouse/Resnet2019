@@ -1,0 +1,6 @@
+name: resnetenv
+dependencies:
+  - keras
+  - nb_conda_kernels
+  - jupyter
+  - tensorflow-gpu==1.12
