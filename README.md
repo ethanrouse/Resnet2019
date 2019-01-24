@@ -47,6 +47,8 @@ jupyter notebook
 
 
 *The above steps can be altered to use CPU rather than GPU computation but in most cases the GPU will be necessary with the volume of data that comes with MRIs. 
-    To use a cpu based tensorflow simply do the following commands while in the activated environment 
-    ''' pip uninstall tensorflow-gpu 
-    pip install tensorflow '''
+    To use a cpu based tensorflow simply do the following commands while in the activated environment
+``` 
+pip uninstall tensorflow-gpu 
+pip install tensorflow 
+```
