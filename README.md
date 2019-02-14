@@ -16,7 +16,7 @@ Resnet implementation using code from https://github.com/raghakot/keras-resnet a
 conda env create --file resnetenv.yml 
 python -m ipykernel install --user --name resnetenv --display-name "Python (resnetenv)" 
 ```
-    
+
   Manually: 
   
 ```
@@ -26,6 +26,11 @@ conda install nb_conda_kernels
 pip install tensorflow_gpu 
 pip install keras 
 python -m ipykernel install --user --name resnetenv --display-name "Python (resnetenv)" 
+```
+
+  You will also need to install the Resnet3D package from https://github.com/JihongJu/keras-resnet3d regardless if you use the environment file or not
+```
+pip install git+https://github.com/JihongJu/keras-resnet3d.git
 ```
     
   For activating/deactivating the environment use the following commands 
