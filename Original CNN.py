@@ -246,9 +246,6 @@ def train_neural_network(x):
                     epoch_loss += c
                     successful_runs += 1
                 except Exception as e:
-                    # I am passing for the sake of notebook space, but we are getting 1 shaping issue from one 
-                    # input tensor. Not sure why, will have to look into it. Guessing it's
-                    # one of the depths that doesn't come to 20.
                     pass
                     #print(str(e))
             
